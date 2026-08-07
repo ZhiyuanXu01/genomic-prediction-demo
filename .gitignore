@@ -1,0 +1,15 @@
+# R project files & history
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Ignore generated outputs and local caches
+results/*
+!results/.gitkeep
+figures/*
+!figures/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
