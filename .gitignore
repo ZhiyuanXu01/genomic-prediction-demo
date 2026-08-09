@@ -6,9 +6,9 @@
 
 # Ignore generated outputs and local caches
 results/*
-!results/.gitkeep
+!results/.csv
 figures/*
-!figures/.gitkeep
+!figures/.png
 
 # System files
 .DS_Store

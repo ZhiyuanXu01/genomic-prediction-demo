@@ -26,13 +26,21 @@ y <- Y[,1]
 
 print(summary(y))
 
+# Preserve the CIMMYT line identifiers supplied with Y and A.
+stopifnot(
+  nrow(Y) == nrow(M),
+  nrow(Y) == nrow(A),
+  nrow(A) == ncol(A),
+  identical(rownames(Y), rownames(A)),
+  identical(rownames(A), colnames(A)),
+  !anyDuplicated(rownames(Y))
+)
+
 # 4
-line_ids <- sprintf("Line_%03d", 1:599)
+line_ids <- rownames(Y)
 
 names(y) <- line_ids
 rownames(M) <- line_ids
-rownames(A) <- line_ids
-colnames(A) <- line_ids
 
 check_ids <- identical(names(y), rownames(M)) && identical(rownames(M), rownames(A))
 
@@ -78,7 +86,7 @@ p <- ggplot(data.frame(y=y), aes(x=y))+
   theme_minimal(base_size=12) +
   labs(
     title = "Distribution of Grain Yield (Environment 1)",
-    subtitle = paste0("CIMMYT Wheat Dataset (n = ", nrow(y), ")"),
+    subtitle = paste0("CIMMYT Wheat Dataset (n = ", sum(!is.na(y)), ")"),
     x = "Standardized Grain Yield",
     y = "Frequency"
   )
