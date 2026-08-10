@@ -4,7 +4,7 @@ Work in progress.
 
 - [x] Repository and reproducible R environment
 - [x] Data loading and initial quality checks
-- [ ] Pedigree and genomic relationship matrices
+- [x] Pedigree and genomic relationship matrices
 - [ ] Baseline PBLUP and GBLUP
 - [ ] Repeated cross-validation
 - [ ] Partial-genotyping scenario and ssGBLUP

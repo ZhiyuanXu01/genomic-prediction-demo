@@ -708,6 +708,29 @@
       "Maintainer": "Kirill Müller <kirill@cynkra.com>",
       "Repository": "CRAN"
     },
+    "rrBLUP": {
+      "Package": "rrBLUP",
+      "Version": "4.6.3",
+      "Source": "Repository",
+      "Title": "Ridge Regression and Other Kernels for Genomic Selection",
+      "Author": "Jeffrey Endelman",
+      "Maintainer": "Jeffrey Endelman <endelman@wisc.edu>",
+      "Depends": [
+        "R (>= 4.0)"
+      ],
+      "Imports": [
+        "stats",
+        "graphics",
+        "grDevices",
+        "parallel"
+      ],
+      "Description": "Software for genomic prediction with the RR-BLUP mixed model (Endelman 2011, <doi:10.3835/plantgenome2011.08.0024>). One application is to estimate marker effects by ridge regression; alternatively, BLUPs can be calculated based on an additive relationship matrix or a Gaussian kernel.",
+      "License": "GPL-3",
+      "URL": "<https://potatobreeding.cals.wisc.edu/software/>",
+      "NeedsCompilation": "no",
+      "Repository": "CRAN",
+      "Encoding": "UTF-8"
+    },
     "scales": {
       "Package": "scales",
       "Version": "1.4.0",
