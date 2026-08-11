@@ -310,6 +310,14 @@ relationship_plot_data <- rbind(
   )
 )
 
+relationship_plot_data$genomic_matrix <- factor(
+  relationship_plot_data$genomic_matrix,
+  levels = c(
+    "Raw G",
+    "G aligned to A"
+  )
+)
+
 relationship_plot <- ggplot(
   relationship_plot_data,
   aes(
@@ -371,3 +379,4 @@ ggsave(
 cat(
   "Saved plot to: figures/A_vs_G_relationship.png\n"
 )
+
