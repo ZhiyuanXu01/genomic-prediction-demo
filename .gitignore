@@ -13,3 +13,6 @@ figures/*
 # System files
 .DS_Store
 Thumbs.db
+
+# Local editor metadata
+.reasonix/

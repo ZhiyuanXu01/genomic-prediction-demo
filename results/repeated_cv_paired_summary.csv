@@ -1,0 +1,4 @@
+"metric","difference_definition","mean_difference","standard_deviation","gblup_better_splits","total_splits"
+"predictive_correlation","GBLUP minus PBLUP",0.0651180285564124,0.0611245955390979,21,25
+"rmse","GBLUP minus PBLUP",-0.0362295595895745,0.0362304852688129,21,25
+"mae","GBLUP minus PBLUP",-0.0277278474388645,0.0292403405071762,21,25

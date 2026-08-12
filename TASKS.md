@@ -6,6 +6,6 @@ Work in progress.
 - [x] Data loading and initial quality checks
 - [x] Pedigree and genomic relationship matrices
 - [x] Baseline PBLUP and GBLUP
-- [ ] Repeated cross-validation
+- [x] Repeated cross-validation
 - [ ] Partial-genotyping scenario and ssGBLUP
 - [ ] Final results and documentation
