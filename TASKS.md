@@ -1,6 +1,6 @@
 ## Status
 
-Work in progress.
+Complete.
 
 - [x] Repository and reproducible R environment
 - [x] Data loading and initial quality checks
@@ -8,4 +8,4 @@ Work in progress.
 - [x] Baseline PBLUP and GBLUP
 - [x] Repeated cross-validation
 - [x] Partial-genotyping scenario and ssGBLUP
-- [ ] Final results and documentation
+- [x] Final results and documentation

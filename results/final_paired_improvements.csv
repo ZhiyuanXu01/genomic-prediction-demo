@@ -1,0 +1,5 @@
+"scenario","evaluation_group","comparison","n_splits","mean_correlation_difference","sd_correlation_difference","correlation_better_splits","mean_rmse_difference","sd_rmse_difference","rmse_better_splits","mean_mae_difference","sd_mae_difference","mae_better_splits"
+"Full genotyping","overall","GBLUP minus PBLUP",25,0.0651180285564124,0.0611245955390979,21,-0.0362295595895745,0.0362304852688129,21,-0.0277278474388645,0.0292403405071762,21
+"50% genotyping","overall","ssGBLUP minus PBLUP",25,0.0307686146618924,0.0553686027357922,17,-0.0164959877132611,0.0315869552445281,20,-0.0108998847010149,0.0266078276024706,18
+"50% genotyping","genotyped","ssGBLUP minus PBLUP",25,0.0438559068928719,0.0840362811897158,17,-0.0197609283896556,0.0462062064258922,18,-0.0114981156464452,0.0414020550078982,18
+"50% genotyping","not_genotyped","ssGBLUP minus PBLUP",25,0.026010667269644,0.0518231489284314,16,-0.0147127771124093,0.0261445219115332,17,-0.011075945440828,0.0192240723007571,17
