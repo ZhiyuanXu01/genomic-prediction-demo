@@ -11,5 +11,5 @@ Work in progress.
 - [x] Pedigree and genomic relationship matrices
 - [x] Baseline PBLUP and GBLUP
 - [x] Repeated cross-validation
-- [ ] Partial-genotyping scenario and ssGBLUP
+- [x] Partial-genotyping scenario and ssGBLUP
 - [ ] Final results and documentation

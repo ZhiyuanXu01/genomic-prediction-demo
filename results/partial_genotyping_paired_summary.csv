@@ -1,0 +1,10 @@
+"evaluation_group","metric","difference_definition","n_splits","mean_difference","standard_deviation","ssgblup_better_splits"
+"overall","predictive_correlation","ssGBLUP minus PBLUP",25,0.0307686146618924,0.0553686027357922,17
+"overall","rmse","ssGBLUP minus PBLUP",25,-0.0164959877132611,0.0315869552445281,20
+"overall","mae","ssGBLUP minus PBLUP",25,-0.0108998847010149,0.0266078276024706,18
+"genotyped","predictive_correlation","ssGBLUP minus PBLUP",25,0.0438559068928719,0.0840362811897158,17
+"genotyped","rmse","ssGBLUP minus PBLUP",25,-0.0197609283896556,0.0462062064258922,18
+"genotyped","mae","ssGBLUP minus PBLUP",25,-0.0114981156464452,0.0414020550078982,18
+"not_genotyped","predictive_correlation","ssGBLUP minus PBLUP",25,0.026010667269644,0.0518231489284314,16
+"not_genotyped","rmse","ssGBLUP minus PBLUP",25,-0.0147127771124093,0.0261445219115332,17
+"not_genotyped","mae","ssGBLUP minus PBLUP",25,-0.011075945440828,0.0192240723007571,17

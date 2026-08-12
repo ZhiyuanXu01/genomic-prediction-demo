@@ -693,9 +693,9 @@ stopifnot(
   nrow(repeated_cv_summary) ==
     length(primary_cv_metrics) *
     length(cv_model_kernels),
-  all(repeated_cv_summary$n_splits == 25),
-  nrow(paired_cv_differences) == 25,
-  nrow(paired_cv_summary) == 3,
+  all(repeated_cv_summary$n_splits == n_repeats * n_folds),
+  nrow(paired_cv_differences) == n_repeats * n_folds,
+  nrow(paired_cv_summary) == length(primary_cv_metrics),
   all(
     is.finite(
       paired_cv_summary$mean_difference
